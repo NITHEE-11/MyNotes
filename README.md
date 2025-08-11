@@ -141,7 +141,7 @@ python3 Villain.py -p 443
 **Villain includes auto-obfuscation to bypass AV:**
 - Encodes PowerShell commands
 - Wraps them in try-catch blocks to preserve stderr
-- Avoids common shell hang-ups
+- Avoids common shell hang-ups.
 **Execution on Target (Windows):**
 - Use social engineering or exploit delivery to run the obfuscated PowerShell payload on the target.
 - Once executed, the shell connects back to your Villain server.
