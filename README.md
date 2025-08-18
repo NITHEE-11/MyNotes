@@ -186,10 +186,10 @@ A Zero-Click Attack is a type of cyber attack that does not require the victim t
 Example:
 A hacker sends a specially crafted message to your phone via iMessage or WhatsApp. You never even open it, but once it arrives, the vulnerability in the app gets triggered automatically, and the attacker gets access to your device.
 **Why it is Dangerous?**
--No mistakes from user needed – the system gets hacked on its own.
--Hard to trace, hard to stop.
--The user may never know they were attacked.
--Used mostly in high-level spying or targeted attacks (journalists, activists, etc.).
+- No mistakes from user needed – the system gets hacked on its own.
+- Hard to trace, hard to stop.
+- The user may never know they were attacked.
+- Used mostly in high-level spying or targeted attacks (journalists, activists, etc.).
 **How to Protect?**
 -Keep devices updated (patches fix these vulnerabilities).
 -Use secure messaging apps with strong security updates.
