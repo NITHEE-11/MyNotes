@@ -155,77 +155,77 @@ Use this for penetration testing in authorized lab environments only.
 **BUG BOUNTY**
 
 **Introduction**:
-A Bug Bounty program is a system where companies allow ethical hackers to test their applications for security vulnerabilities. If a hacker finds a valid bug, they report it responsibly and receive a monetary reward or recognition.
+  A Bug Bounty program is a system where companies allow ethical hackers to test their applications for security vulnerabilities. If a hacker finds a valid bug, they report it responsibly and receive a monetary    reward or recognition.
 **Objective:**
--Identify vulnerabilities in web applications legally
--Practice ethical hacking using proper tools
--Help companies fix security issues before attackers exploit them
+ - Identify vulnerabilities in web applications legally
+ - Practice ethical hacking using proper tools
+ - Help companies fix security issues before attackers exploit them
 **Notes:**
--Always have permission before testing any system.
--Use VPS and VPN for recon and scanning.
--Keep screenshots and logs as proof.
--Write clean, professional reports for higher chance of payout.
+ - Always have permission before testing any system.
+ - Use VPS and VPN for recon and scanning.
+ - Keep screenshots and logs as proof.
+ - Write clean, professional reports for higher chance of payout.
 **Common Vulnerabilities Found in Bug Bounties:**
--Broken Access Control (BAC) – Users access data/actions they shouldn’t.
--IDOR (Insecure Direct Object Reference) – Example: Changing user ID in a URL to view another user’s data.
--XSS (Cross-Site Scripting) – Injecting malicious scripts in a web page.
--CSRF (Cross-Site Request Forgery) – Forcing users to execute unwanted actions.
--SQL Injection (SQLi) – Manipulating database queries.
--SSRF (Server-Side Request Forgery) – Making the server perform unauthorized requests.
--Authentication & Authorization Bypasses – Login without valid credentials.
+ - Broken Access Control (BAC) – Users access data/actions they shouldn’t.
+ - IDOR (Insecure Direct Object Reference) – Example: Changing user ID in a URL to view another user’s data.
+ - XSS (Cross-Site Scripting) – Injecting malicious scripts in a web page.
+ - CSRF (Cross-Site Request Forgery) – Forcing users to execute unwanted actions.
+ - SQL Injection (SQLi) – Manipulating database queries.
+ - SSRF (Server-Side Request Forgery) – Making the server perform unauthorized requests.
+ - Authentication & Authorization Bypasses – Login without valid credentials.
 
 **ZERO-CLICK ATTACK**
 
-A Zero-Click Attack is a type of cyber attack that does not require the victim to click anything, download anything, or even do any action. The attacker can hack the device remotely and silently, often by exploiting vulnerabilities in messaging apps, email services, or communication protocols.
+  A Zero-Click Attack is a type of cyber attack that does not require the victim to click anything, download anything, or even do any action. The attacker can hack the device remotely and silently, often by        exploiting vulnerabilities in messaging apps, email services, or communication protocols.
 **Key Points about Zero-Click Attacks:**
--No user interaction required (no clicking links, no opening files).
--Usually targets smartphones, messaging apps (like WhatsApp, iMessage), or email clients.
--Hard to detect because the user does not see anything suspicious.
--Uses vulnerabilities in software to execute malicious code automatically.
--Often used for spying, stealing data, remote access, or installing spyware (e.g. Pegasus spyware).
+ - No user interaction required (no clicking links, no opening files).
+ - Usually targets smartphones, messaging apps (like WhatsApp, iMessage), or email clients.
+ - Hard to detect because the user does not see anything suspicious.
+ - Uses vulnerabilities in software to execute malicious code automatically.
+ - Often used for spying, stealing data, remote access, or installing spyware (e.g. Pegasus spyware).
 Example:
-A hacker sends a specially crafted message to your phone via iMessage or WhatsApp. You never even open it, but once it arrives, the vulnerability in the app gets triggered automatically, and the attacker gets access to your device.
+  A hacker sends a specially crafted message to your phone via iMessage or WhatsApp. You never even open it, but once it arrives, the vulnerability in the app gets triggered automatically, and the attacker gets    access to your device.
 **Why it is Dangerous?**
-- No mistakes from user needed – the system gets hacked on its own.
-- Hard to trace, hard to stop.
-- The user may never know they were attacked.
-- Used mostly in high-level spying or targeted attacks (journalists, activists, etc.).
+ -  No mistakes from user needed – the system gets hacked on its own.
+ -  Hard to trace, hard to stop.
+ -  The user may never know they were attacked.
+ -  Used mostly in high-level spying or targeted attacks (journalists, activists, etc.).
 **How to Protect?**
--Keep devices updated (patches fix these vulnerabilities).
--Use secure messaging apps with strong security updates.
--Use mobile security tools or antivirus.
--Disable auto-preview of messages (if possible).
--Avoid jailbreaking/rooting your phone.
+ - Keep devices updated (patches fix these vulnerabilities).
+ - Use secure messaging apps with strong security updates.
+ - Use mobile security tools or antivirus.
+ - Disable auto-preview of messages (if possible).
+ - Avoid jailbreaking/rooting your phone.
 **Summary**
-A Zero-Click Attack is a dangerous type of hacking where the attacker doesn't need any help from the victim. Just receiving a malicious message or file is enough for the device to be infected. It relies on hidden vulnerabilities in apps or operating systems and is very hard to detect or stop.
+  A Zero-Click Attack is a dangerous type of hacking where the attacker doesn't need any help from the victim. Just receiving a malicious message or file is enough for the device to be infected. It relies on       hidden vulnerabilities in apps or operating systems and is very hard to detect or stop.
 
 **FLIPPER ZERO**
 
-Flipper Zero is a portable multi-tool device for pentesters, hackers, and hardware geeks. It looks like a small Tamagotchi toy with a cute dolphin on the screen — but it's actually a powerful hacking gadget that supports multiple wireless protocols and access technologies.
+  Flipper Zero is a portable multi-tool device for pentesters, hackers, and hardware geeks. It looks like a small Tamagotchi toy with a cute dolphin on the screen — but it's actually a powerful hacking gadget       that supports multiple wireless protocols and access technologies.
 **Main Features of Flipper Zero:**
--RFID & NFC: Read, copy, and emulate RFID cards (125kHz) and NFC cards (13.56 MHz). Used to clone entry cards used in offices, hostels, etc.
--Sub-GHz Radio: Capture and replay signals from wireless remotes (garage doors, wireless bells, car keys) that use frequencies like 315 MHz, 433 MHz, etc.
--Infrared (IR): Control TVs, Air Conditioners, etc. Works like a universal remote.
--Bluetooth / BLE: Interact with smart devices that use Bluetooth Low Energy.
--GPIO Ports: Can connect to hardware, sensors, IoT devices; works like a mini hardware hacking platform.
+ - RFID & NFC: Read, copy, and emulate RFID cards (125kHz) and NFC cards (13.56 MHz). Used to clone entry cards used in offices, hostels, etc.
+ - Sub-GHz Radio: Capture and replay signals from wireless remotes (garage doors, wireless bells, car keys) that use frequencies like 315 MHz, 433 MHz, etc.
+ - Infrared (IR): Control TVs, Air Conditioners, etc. Works like a universal remote.
+ - Bluetooth / BLE: Interact with smart devices that use Bluetooth Low Energy.
+ - GPIO Ports: Can connect to hardware, sensors, IoT devices; works like a mini hardware hacking platform.
 **What Can It Do?**
--Open or clone RFID access cards (if not secured properly)
--Copy NFC hotel cards
--Change TV channels in public places using IR
--Intercept and replay wireless remote signals (e.g., doorbells)
--Bruteforce weak access control systems
--Interact with smart IoT devices
--Use community-made plugins to do Wi-Fi scanning, signal jamming, etc. (with custom firmware)
+ - Open or clone RFID access cards (if not secured properly)
+ - Copy NFC hotel cards
+ - Change TV channels in public places using IR
+ - Intercept and replay wireless remote signals (e.g., doorbells)
+ - Bruteforce weak access control systems
+ - Interact with smart IoT devices
+ - Use community-made plugins to do Wi-Fi scanning, signal jamming, etc. (with custom firmware)
 **Is it Legal or Illegal?**
--The device itself is legal.
--It becomes illegal if you use it to break into systems or clone someone’s card without permission.
--Used responsibly, it is a good ethical hacking and learning tool.
+ - The device itself is legal.
+ - It becomes illegal if you use it to break into systems or clone someone’s card without permission.
+ - Used responsibly, it is a good ethical hacking and learning tool.
 **Why is Flipper Zero Popular?**
--Portable, small, easy to carry in your pocket.
--No computer needed — standalone hacking tool.
--Has a fun interface with a digital pet.
--Huge community making custom firmware and plug-ins.
--Great for learning RF, IoT, and access control hacking.
+ - Portable, small, easy to carry in your pocket.
+ - No computer needed — standalone hacking tool.
+ - Has a fun interface with a digital pet.
+ - Huge community making custom firmware and plug-ins.
+ - Great for learning RF, IoT, and access control hacking.
 
 
 
